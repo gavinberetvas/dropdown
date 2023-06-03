@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0rem;
+    padding: 0;
+    border: 1px solid black;
+    
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+li {
+    border: 1px solid black;
+    background-color: aquamarine;
+    max-width: 6rem;
+}
+
+.circlenavwrapper {
+    position: relative;
+    height: 40rem;
+    width: 15rem;
+}
+
+.circlenav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    gap: .1rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: transform .3s ease
+
+}
+
+.circle {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+#circle {
+    background-color: rgb(231, 117, 117);
+    z-index: 100;
+}
+
+#circle2 {
+    background-color: rgb(231, 180, 117);
+    z-index: 90;
+}
+
+#circle3 {
+    background-color: rgb(216, 231, 117);
+    z-index: 80;
+}
+
+#circle4 {
+    background-color: rgb(121, 231, 117);
+    z-index: 70;
+}
+
+#circle5 {
+    background-color: rgb(117, 214, 231);
+    z-index: 90;
+}
+
+#circle6 {
+    background-color: rgb(117, 151, 231);
+    z-index: 80;
+}
+
+#circle7 {
+    background-color: rgb(182, 117, 231);
+    z-index: 70;
+}
+
+
+/* #circlenav2{
+    transform: translateY(-4rem);
+}
+
+#circlenav3{
+    transform: translateY(-8rem);
+}
+
+#circlenav4{
+    transform: translateY(-12rem);
+} */
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/* transition: margin 0.3s ease-in-out, opacity 0.3s ease-in-out; */
+margin-right: 0rem;
+opacity: 0;
+
+    /* transition: transform 0.5s ease; */
+    transition: transform .5s ease-in-out, opacity 0.5s ease-in-out;
+
+}
